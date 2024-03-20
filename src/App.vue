@@ -2,18 +2,25 @@
   <main-header></main-header>
   <project-list></project-list>
   <carousel></carousel>
+  <about-us></about-us>
+  <main-order></main-order>
 </template>
 
 <script>
 import mainHeader from './assets/UI/header.vue'
 import projectList from './components/projects.vue'
 import carousel from "@/assets/UI/carousel.vue";
+import aboutUs from './assets/UI/aboutUs.vue'
+import mainOrder from './assets/UI/order.vue'
+// import mainInput from "@/components/projects";
 export default {
   name: 'App',
   components: {
     mainHeader,
     projectList,
-    carousel
+    carousel,
+    aboutUs,
+    mainOrder
   }
 }
 </script>
